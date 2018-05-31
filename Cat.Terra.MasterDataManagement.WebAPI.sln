@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cat.Terra.MasterDataManagement.WebAPI", "Cat.Terra.MasterDataManagement.WebAPI\Cat.Terra.MasterDataManagement.WebAPI.csproj", "{44E6460E-A595-4173-9A4C-586EF6AE307E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Terra.MasterDataManagement.Repository", "Cat.Terra.MasterDataManagement.Repository\Cat.Terra.MasterDataManagement.Repository.csproj", "{CEC3395C-1A48-4DFF-B7B3-94BCF2A13F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Terra.MasterDataManagement.Entities", "Cat.Terra.MasterDataManagement.Entities\Cat.Terra.MasterDataManagement.Entities.csproj", "{CED6161C-8423-47BA-9C8E-9322887664F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unittests", "unittests", "{C28DC641-69A6-463E-9832-6C161E2EF37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Terra.MasterDataManagement.WebAPI.Unittests", "Cat.Terra.MasterDataManagement.WebAPI.Unittests\Cat.Terra.MasterDataManagement.WebAPI.Unittests.csproj", "{177946CF-5487-489C-876D-83BED1F19ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Terra.MasterDataManagement.Repository.Unittests", "Cat.Terra.MasterDataManagement.Repository.Unittests\Cat.Terra.MasterDataManagement.Repository.Unittests.csproj", "{E821BBE7-638F-46B2-B03B-45DB67B3E71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E6460E-A595-4173-9A4C-586EF6AE307E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E6460E-A595-4173-9A4C-586EF6AE307E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E6460E-A595-4173-9A4C-586EF6AE307E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E6460E-A595-4173-9A4C-586EF6AE307E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC3395C-1A48-4DFF-B7B3-94BCF2A13F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC3395C-1A48-4DFF-B7B3-94BCF2A13F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC3395C-1A48-4DFF-B7B3-94BCF2A13F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC3395C-1A48-4DFF-B7B3-94BCF2A13F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED6161C-8423-47BA-9C8E-9322887664F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED6161C-8423-47BA-9C8E-9322887664F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED6161C-8423-47BA-9C8E-9322887664F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED6161C-8423-47BA-9C8E-9322887664F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177946CF-5487-489C-876D-83BED1F19ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177946CF-5487-489C-876D-83BED1F19ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177946CF-5487-489C-876D-83BED1F19ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177946CF-5487-489C-876D-83BED1F19ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E821BBE7-638F-46B2-B03B-45DB67B3E71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E821BBE7-638F-46B2-B03B-45DB67B3E71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E821BBE7-638F-46B2-B03B-45DB67B3E71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E821BBE7-638F-46B2-B03B-45DB67B3E71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{177946CF-5487-489C-876D-83BED1F19ED0} = {C28DC641-69A6-463E-9832-6C161E2EF37E}
+		{E821BBE7-638F-46B2-B03B-45DB67B3E71B} = {C28DC641-69A6-463E-9832-6C161E2EF37E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA79262B-032F-43D6-8A6E-331C80DDC990}
+	EndGlobalSection
+EndGlobal
